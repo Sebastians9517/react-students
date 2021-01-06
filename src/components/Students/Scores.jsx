@@ -5,9 +5,12 @@ const Scores = (props) => {
     return (
       <div>
         {props.scores.map((score) => (
-          <p >Students Dates: {score.date}
+          <p>
+              <h3>Dates</h3>
+              {score.date}
             <br/>
-            Student Score: {score.score}
+            <h3>Scores</h3>
+            {score.score}
           </p>
         ))}
       </div>

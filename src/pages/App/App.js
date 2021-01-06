@@ -1,4 +1,3 @@
-
 import './App.css';
 import React, { Component } from 'react';
 import Students from '../../components/Students/Students'
@@ -69,7 +68,7 @@ class App extends Component {
     return (
       <div>
         < Students
-        students={this.state.students} />
+          students={this.state.students} />
       </div>
     )
   }

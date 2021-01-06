@@ -1,5 +1,5 @@
 import React from "react";
-import Scores from "../Students/Scores"
+import Scores from '../Students/Scores'
 
 const Students = (props) => {
     return (
